@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oluwayemi Oni's WDD231 Web Development Portfolio" >
+  <meta name="author" content="Oluwayemi Oni" >
+  <title>Oluwayemi Oni | WDD231</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans+Georgian:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img src="images/profile.jpg" alt="Oluwayemi Oni">
+    <span>Oluwayemi Oni</span>
+    <button id="menu" aria-label="Toggle Navigation">&#9776;</button>
+  </header>
+
+  <nav>
+    <ul id="navMenu">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Chamber</a></li>
+      <li><a href="#">Final</a></li>
+      <li><a href="#">GitHub Profile</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Home</h1>
+    <section>
+      <h2>Course Work</h2>
+      <ul>
+        <li>WDD 130</li>
+        <li>CSE 110</li>
+        <li>WDD 131</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Toloria, Madagascar</h2>
+      <img src="images/tourism.webp" alt="Vet Neam">
+      <p>Vet Neam</p>
+    </section>
+
+    <section>
+      <h2>Web and Computer Programming Certificate</h2>
+      <div>
+        <button data-filter="all">All</button>
+        <button data-filter="CSE">CSE</button>
+        <button data-filter="WDD">WDD</button>
+      </div>
+      <div id="courses"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;<span id="currentyear"></span> Oluwayemi Oni 🌺 Nigeria</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
