@@ -25,5 +25,4 @@ const courses = [
       displayCourses(button.dataset.filter);
     });
   });
-  
   window.addEventListener("DOMContentLoaded", () => displayCourses());
