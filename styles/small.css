@@ -15,17 +15,26 @@
     background: #1a4e7a;
     color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 1rem;
     gap: 1rem;
   }
-  
-  header img {
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
+  .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-container img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%; /* optional: makes it circular */
+}
+
+span {
+  font-size: 24px; /* You can also use px, em, %, etc. */
+}
   
   nav {
     background: black;
@@ -153,10 +162,4 @@
     position: relative;
   }
   
-  footer img {
-    width: 30px;
-    position: absolute;
-    right: 1rem;
-    bottom: 1rem;
-  }
   
