@@ -1,0 +1,68 @@
+{
+  "members": [
+    {
+      "name": "TechNova Solutions",
+      "address": "123 Innovation Dr, Silicon City, CA",
+      "phone": "(555) 123-4567",
+      "website": "https://www.technova.com",
+      "image": "technova.png",
+      "level": 3,
+      "category": "Technology"
+    },
+    {
+      "name": "Temu",
+      "address": "456 Garden Way, Greentown, OR",
+      "phone": "(555) 987-6543",
+      "website": "https://www.temu.com",
+      "image": "temu.png",
+      "level": 2,
+      "category": "E-shopping"
+    },
+    {
+      "name": "Lehui Engineering",
+      "address": "789 Main St, Foodville, TX",
+      "phone": "(555) 222-3333",
+      "website": "https://www.lehui.com",
+      "image": "lehui.png",
+      "level": 1,
+      "category": "Engineering"
+    },
+    {
+      "name": "Sunset Realty",
+      "address": "101 Ocean Ave, Beachtown, FL",
+      "phone": "(555) 888-1212",
+      "website": "https://www.sunsetrealty.com",
+      "image": "sunsetrealt.png",
+      "level": 2,
+      "category": "Real Estate"
+    },
+    {
+      "name": "Elite Fitness",
+      "address": "202 Fit Ln, Strongsville, CO",
+      "phone": "(555) 321-7654",
+      "website": "https://www.elitefitness.com",
+      "image": "elitefitness.png",
+      "level": 3,
+      "category": "Health & Fitness"
+    },
+    {
+      "name": "Bloom Florists",
+      "address": "303 Petal Blvd, Flowerfield, WA",
+      "phone": "(555) 444-2323",
+      "website": "https://www.bloomflorists.com",
+      "image": "bloom.png",
+      "level": 1,
+      "category": "Retail"
+    },
+    {
+      "name": "Rapid Courier",
+      "address": "404 Speedy St, Deliveropolis, NY",
+      "phone": "(555) 676-9090",
+      "website": "https://www.rapidcourier.com",
+      "image": "rapidcourier.png",
+      "level": 2,
+      "category": "Logistics"
+    }
+  ]
+}
+
