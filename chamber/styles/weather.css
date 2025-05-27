@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif; 
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: #3a4a6c;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+
+  height: auto;
+}
+img {
+  display: flex;
+  justify-content:left;
+  align-items: left;
+  height: auto;
+  width: 10%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ nav ul li a:hover {
+    background: gold;
+    color: black;
+    border-radius: 5px;
+  }
+
+  /* ===== MAIN CONTENT ===== */
+main {
+  padding: 2rem 0;
+}
+
+h1{
+    text-align: center;
+}
+h1, h2, h3 {
+  color: #003366;
+}
+
+/* === Hero Section === */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero .cta-button {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  background: #FFD700;
+  color: #003366;
+  padding: 1rem 2rem;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+/* === Events & Weather === */
+.events-weather {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.events, .weather {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.weather figure {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* === Spotlights === */
+.spotlights {
+  margin-top: 2rem;
+}
+
+.spotlights-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.spotlight-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.spotlight-card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.spotlight-card p {
+  margin: 0.3rem 0;
+}
+
+/* === Footer === */
+footer p {
+  margin: 0.3rem 0;
+}
