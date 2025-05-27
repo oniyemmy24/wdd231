@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the Osun Chamber of Commerce official website.">
+  <meta name="author" content="Your Name">
+  <meta property="og:title" content="Osun Chamber of Commerce">
+  <meta property="og:description" content="Connect, grow, and prosper with Osun’s thriving business community.">
+  <meta property="og:image" content="images/osun-chamber.jpg">
+  <meta property="og:url" content="https://yourdomain.com/chamber/index.html">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/weather.css">
+  <link rel="stylesheet" href="styles/weather-larger.css">
+  <title>Osun Chamber of Commerce</title>
+  <script src="scripts/weather.js" type="module"></script>
+  <script src="scripts/spotlight.js" type="module"></script>
+</head>
+<body>
+  <header>
+    <img src="images/osun-chamber.jpeg" alt="Osun Chamber of Commerce">
+    <div class="image-container">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- Hero Section -->
+     <h1>Osun Chamber of Commerce</h1>
+    <section class="hero">
+      <img src="images/tourism.webp" alt="Osun city skyline" />
+      <div class="hero-text">
+        <h2>Empowering Business, Strengthening Community</h2>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Current Events -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li><strong>June 10:</strong> Osun Business Networking Breakfast</li>
+        <li><strong>June 15:</strong> Annual Chamber Gala & Awards</li>
+        <li><strong>June 20:</strong> Free Small Business Workshop</li>
+      </ul>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Current Weather</h2>
+      <p>Temperature: <span id="current-temp"></span></p>
+      <figure>
+        <img id="weather-icon" src="" alt="">
+        <figcaption></figcaption>
+      </figure>
+      <div id="forecast"></div>
+    </section>
+
+    <!-- Business Spotlights -->
+    <section class="spotlights">
+      <h2>Business Spotlights</h2>
+      <div id="spotlight-container" class="spotlight-grid">
+        <!-- JS will populate spotlights here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Osun Chamber of Commerce | WDD 231</p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
