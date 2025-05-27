@@ -13,13 +13,6 @@ body {
   color: #333;
 }
 
-/* ===== GLOBAL CONTAINERS ===== */
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 /* ===== HEADER & NAVIGATION ===== */
 header {
   background-color: #3a4a6c;
