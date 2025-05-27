@@ -22,7 +22,6 @@ header, footer {
 img {
   display: flex;
   justify-content:left;
-  align-items: left;
   height: auto;
   width: 10%;
 }
