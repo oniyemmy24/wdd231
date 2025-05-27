@@ -62,6 +62,24 @@
       "image": "rapidcourier.png",
       "level": 2,
       "category": "Logistics"
+    },
+    {
+      "name": "Daniel Adewole Awe Medical Center.",
+      "image": "daamc.png",
+      "phone": "0801-234-5678",
+      "address": "Orita-Iloko, Ilesa, Osun",
+      "website": "https://daamc.org",
+      "level": 1,
+      "category": "Medical"
+    },
+    {
+      "name": "MicCom Golf Conference and Resort ",
+      "image": "micom.png",
+      "phone": "0802-345-6789",
+      "address": "Ibokun Road, Ada. Osun State",
+      "website": "https://miccomgolfresort.com",
+      "level": 2,
+      "category": "Hospitality"
     }
   ]
 }
