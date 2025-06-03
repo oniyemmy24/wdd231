@@ -15,7 +15,7 @@ body {
 
 /* ===== HEADER & NAVIGATION ===== */
 header {
-  background-color: #3a4a6c;
+  background-color: #007B8A;;
   color: white;
   padding: 1rem;
   
@@ -35,20 +35,22 @@ header {
   }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: right;
-    padding: 0.25rem 0;
-  }
-  
-  nav ul li a {
-    color: white;
-    padding: 0.10rem 1rem;
-    text-decoration: none;
-  }
-  
-  nav ul li a.active,
-  nav ul li a:hover {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ nav ul li a:hover {
     background: gold;
     color: black;
     border-radius: 5px;
@@ -124,7 +126,7 @@ h1{
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: #1d2a45;
+  background-color: #007B8A;;
   color: white;
   text-align: center;
   padding: 1rem;
