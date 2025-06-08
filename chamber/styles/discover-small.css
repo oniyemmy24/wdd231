@@ -1,0 +1,121 @@
+/* Base Styles */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  font-family: 'Roboto' sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #007B8A;
+  color: white;
+  padding: 10px;
+  height: auto;
+}
+
+img {
+  display: flex;
+  justify-content:left;
+  height: auto;
+  width: 10%;
+}
+
+h1 {
+   text-align: center;
+    margin-bottom: 1rem;
+  }
+
+h2 {
+text-align: center;
+font-size: 1.5em;
+}
+
+address{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+
+nav li {
+  margin: 0 0.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ nav ul li a:hover {
+    background: gold;
+    color: black;
+    border-radius: 5px;
+  }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #3ab898; 
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+ .card button:hover {
+  background-color: #007B8A;
+}
+
+#visit-message {
+  background-color: #e0f7fa;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+footer{
+  background: #007B8A;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
