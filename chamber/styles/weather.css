@@ -1,24 +1,27 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  font-family: 'Roboto' sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Roboto, sans-serif; 
-  line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
+  line-height: 1.6;
 }
 
-header, footer {
-  background-color: #007B8A;;
+
+header {
+  background: #007B8A;
+  height: 30%;
+  overflow: hidden;
   color: white;
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem;
   text-align: center;
-
-  height: auto;
 }
+
+h1{
+  color: white;
+}
+
 img {
   display: flex;
   justify-content:left;
@@ -55,9 +58,6 @@ main {
 
 h1{
     text-align: center;
-}
-h1, h2, h3 {
-  color: #003366;
 }
 
 /* === Hero Section === */
@@ -139,4 +139,11 @@ h1, h2, h3 {
 /* === Footer === */
 footer p {
   margin: 0.3rem 0;
+}
+footer {
+  background-color: #007B8A;;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
 }
