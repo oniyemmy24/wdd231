@@ -1,0 +1,51 @@
+
+  [
+    {
+    "title": "Osun Grove",
+    "image": "images/osun-grove.png",
+    "address": "Sacred Forest, Osogbo, Osun State",
+    "description": "A UNESCO heritage site with historical shrines, sculptures, and natural beauty."
+    },
+    {
+    "title": "Ataoja Palace",
+    "image": "images/ataoja-palace.png",
+    "address": "Oja-Oba, Osogbo, Osun State",
+    "description": "The traditional seat of the Ataoja, housing cultural artifacts and history."
+    },
+    {
+    "title": "Nike Art Gallery",
+    "image": "images/nike-gallery.png",
+    "address": "Old Ede Rd, Osogbo, Osun State",
+    "description": "A vibrant art space showcasing traditional and contemporary African art."
+    },
+    {
+    "title": "Erin-Ijesha Waterfall",
+    "image": "images/erin-ijesha.png",
+    "address": "Erin-Ijesha, Osun State",
+    "description": "A stunning seven-step waterfall ideal for adventure seekers."
+    },
+    {
+    "title": "Osun State Museum",
+    "image": "images/osun-museum1.png",
+    "address": "Osogbo City Center, Osun State",
+    "description": "Explore ancient relics and the rich history of the Yoruba people."
+    },
+    {
+    "title": "Oja-Oba Market",
+    "image": "images/oja-oba1.png",
+    "address": "Osogbo Main Market, Osun State",
+    "description": "A bustling market offering authentic crafts, fabrics, and local produce."
+    },
+    {
+    "title": "Obafemi Awolowo University",
+    "image": "images/oau-campus1.png",
+    "address": "Ile-Ife, Osun State",
+    "description": "One of Nigeria’s premier universities, known for its architecture and culture."
+    },
+    {
+    "title": "Old Governor's Lodge",
+    "image": "images/governors-lodge1.webp",
+    "address": "Government Reserved Area, Osogbo, Osun State",
+    "description": "Historic colonial residence reflecting British architectural influence."
+    }
+  ]
