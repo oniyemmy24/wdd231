@@ -1,0 +1,41 @@
+/* Large screens */
+@media (min-width: 1025px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: right;
+    gap: 2rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+button{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #3ab898; /* gold-ish like Timbuktu’s glory */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ button:hover {
+  background-color: #3a4a6c;
+}
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card img:hover {
+    filter: brightness(0.9);
+    transform: scale(1.05);
+    transition: transform 0.3s, filter 0.3s;
+  }
+}
