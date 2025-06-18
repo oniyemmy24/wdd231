@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  form, .events {
+    width: 48%;
+  }
+}
