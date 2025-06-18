@@ -1,0 +1,203 @@
+/* styles-small.css - Mobile First */
+
+/* Base Reset and Body */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+ background-color: #007B8A;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  justify-content:left;
+  height: auto;
+  width: 10%;
+}
+
+
+header h1 {
+  margin: 0.5rem 0;
+}
+
+/* Navigation */
+/* Base nav styles */
+.hamburger {
+  display: block;
+  cursor: pointer;
+}
+nav ul {
+  justify-content: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav a {
+ color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: gold;
+  color: black;
+  border-radius: 5px;
+}
+
+/* Dropdown menu */
+nav .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; /* Align below the parent */
+  left: 0;
+  background: #fff;
+  color: #000;
+  min-width: 160px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  z-index: 1000;
+}
+
+nav .dropdown li {
+  display: block;
+}
+
+nav .submenu:hover .dropdown,
+nav .dropdown:hover {
+  display: block;
+}
+
+/* Main Content */
+main {
+  padding: 1rem;
+}
+
+.intro {
+  text-align: center;
+}
+
+/* Hamburger */
+
+.hamburger {
+  display: block;
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  margin: 1rem;
+}
+
+.slider {
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.slides {
+  display: flex;
+  flex-direction: column;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta a {
+  display: inline-block;
+  background-color: #4a2c2a;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.heritage-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #f2f6f9;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-content h2 {
+  margin-bottom: 0.8rem;
+  color: #111;
+}
+
+.card-content p {
+  margin-bottom: 1.2rem;
+  line-height: 1.5;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.btn.volunteer {
+  background-color: #007BFF;
+}
+
+.btn.explore {
+  background-color: #007BFF;
+}
+
+.btn.donate {
+  background-color: #007BFF;
+}
+
+.btn:hover {
+  background: gold;
+  color: black;
+}
+
+/* Footer */
+footer {
+ background-color: #007B8A;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
