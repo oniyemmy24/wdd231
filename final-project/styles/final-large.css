@@ -1,0 +1,48 @@
+/* styles-large.css - For screens ≥ 768px */
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 0 1rem;
+  }
+
+  .slides {
+    flex-direction: row;
+    animation: slide 12s infinite;
+  }
+
+  .slides img {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    33% { transform: translateX(-100%); }
+    66% { transform: translateX(-200%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .intro {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .slider {
+    max-width: 1000px;
+    margin: 2rem auto;
+  }
+
+  .cta a:hover {
+    background-color: #5c3a37;
+  }
+
+  .heritage-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
