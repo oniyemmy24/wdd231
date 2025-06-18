@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Museum Volunteer Day",
+    "date": "2025-08-05",
+    "description": "Help catalog historical artifacts and assist visitors.",
+    "location": "Heritage Museum"
+  },
+  {
+    "title": "Restoration Workshop",
+    "date": "2025-09-10",
+    "description": "Learn how to preserve historical buildings and furniture.",
+    "location": "Old Foundry Hall"
+  },
+  {
+    "title": "Annual Heritage Walk",
+    "date": "2025-07-20",
+    "location": "Old Town Hall",
+    "description": "Join us for a guided walk exploring Osun’s most treasured historical sites."
+  },
+  {
+    "title": "Photo Archive Exhibition",
+    "date": "2025-08-15",
+    "location": "Heritage Library",
+    "description": "View rare photos from the early 1900s, many never before seen publicly."
+  },
+  {
+    "title": "Cultural Festival",
+    "date": "2025-07-15",
+    "location": "Osogbo City Center",
+    "description": "Celebrating traditional music and art in Osun."
+  },
+  {
+    "title": "Historic Walk",
+    "date": "2025-08-01",
+    "description": "A guided tour through the town’s heritage sites.",
+    "location": "Ile-Ife"
+  }
+]
+
