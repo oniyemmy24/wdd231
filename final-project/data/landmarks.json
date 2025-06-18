@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Osun-Osogbo Sacred Grove",
+    "address": "Osogbo, Osun State",
+    "description": "A UNESCO World Heritage Site, the Osun-Osogbo Sacred Grove is a dense forest along the banks of the Osun River, filled with sanctuaries, shrines, sculptures, and art dedicated to Osun, the goddess of fertility.",
+    "latitude": 7.7591,
+    "longitude": 4.5618,
+    "image": "images/pioneer-museum.png"
+  },
+  {
+    "name": "Ataoja's Palace",
+    "address": "Osogbo City Center, Osun",
+    "description": "The royal palace of the Ataoja, the traditional ruler of Osogbo, showcasing historic Yoruba architecture and cultural heritage.",
+    "latitude": 7.7705,
+    "longitude": 4.5569,
+    "image": "images/ataoja-palace.png"
+  },
+  {
+    "name": "Erin Ijesha Waterfall",
+    "address": "Erin Ijesha, Oriade LGA, Osun State",
+    "description": "Also known as Olumirin Waterfalls, this beautiful seven-step waterfall is a popular tourist attraction and sacred site.",
+    "latitude": 7.5866,
+    "longitude": 4.9421,
+    "image": "images/tourist3.webp"
+  },
+  {
+    "name": "Obafemi Awolowo University",
+    "address": "Ile-Ife, Osun State",
+    "description": "One of Nigeria's leading universities, known for its modernist architecture and contributions to Nigerian education and politics.",
+    "latitude": 7.5176,
+    "longitude": 4.5191,
+    "image": "images/oau-campus1.png"
+  },
+  {
+    "name": "Ifa Temple",
+    "address": "Ile-Ife, Osun State",
+    "description": "A sacred site for the practice of the Ifa divination system, central to Yoruba spirituality and religion.",
+    "latitude": 7.4764,
+    "longitude": 4.5534,
+    "image": "images/ifa-temple.png"
+  },
+   {
+    "name": "Moremi Statue",
+    "address": "Ile-Ife, Osun State",
+    "description": "The tallest statue in Nigeria, celebrating Queen Moremi Ajasoro’s legendary sacrifice for the Yoruba people.",
+    "latitude": 7.4722,
+    "longitude": 4.5541,
+    "image": "images/moremi-statue.webp"
+  },
+  {
+    "name": "Ooni of Ife's Palace",
+    "address": "Enuwa Square, Ile-Ife",
+    "description": "The ancient palace of the Ooni, the paramount ruler of Ile-Ife, believed to be the cradle of Yoruba civilization.",
+    "latitude": 7.4675,
+    "longitude": 4.5563,
+    "image": "images/ooni-palace.webp"
+  },
+  {
+    "name": "Oshogbo City Stadium",
+    "address": "Osogbo, Osun State",
+    "description": "A multi-purpose stadium used for sporting events and cultural festivals, including Osun-Osogbo.",
+    "latitude": 7.7702,
+    "longitude": 4.5490,
+    "image": "images/osogbo-stadium.webp"
+  },
+  {
+    "name": "National Museum, Ile-Ife",
+    "address": "Ile-Ife, Osun State",
+    "description": "Features artifacts from ancient Ife civilization, including terracotta and bronze artworks.",
+    "latitude": 7.4763,
+    "longitude": 4.5605,
+    "image": "images/ife-museum.png"
+  },
+  {
+    "name": "OAU Zoological Garden",
+    "address": "Obafemi Awolowo University, Ile-Ife",
+    "description": "A recreational and educational zoo with a variety of animal species, used for tourism and research.",
+    "latitude": 7.5143,
+    "longitude": 4.5222,
+    "image": "images/oau-zoo.webp"
+  }
+]
