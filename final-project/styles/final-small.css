@@ -30,12 +30,6 @@ header h1 {
   margin: 0.5rem 0;
 }
 
-/* Navigation */
-/* Base nav styles */
-.hamburger {
-  display: block;
-  cursor: pointer;
-}
 nav ul {
   justify-content: right;
   list-style: none;
@@ -89,18 +83,6 @@ main {
 
 .intro {
   text-align: center;
-}
-
-/* Hamburger */
-
-.hamburger {
-  display: block;
-  font-size: 2rem;
-  cursor: pointer;
-  background: none;
-  border: none;
-  color: white;
-  margin: 1rem;
 }
 
 .slider {
